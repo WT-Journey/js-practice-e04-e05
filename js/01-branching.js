@@ -4,10 +4,11 @@
 
 // if (5 > 30) {
 //   //  тіло
-//   console.log('qweqwe');
+//   console.log('if');
 // }
 
 // console.log('далі');
+
 /*
  * Оператор розгалуження if...else
  */
@@ -25,7 +26,7 @@
 const salary = 5000;
 
 // if (salary <= 500) {
-//   console.log('Рівеньь 1');
+//   console.log('Рівень 1');
 // } else if (salary > 500 && salary <= 1500) {
 //   console.log('Рівень 2');
 // } else if (salary > 1500 && salary < 3000) {
@@ -34,12 +35,13 @@ const salary = 5000;
 //   console.log('Рівень 4');
 // }
 
-// console.log('qweqwe');
+// console.log('повідомлення після виконання if');
 
 /*
  * Тернарний оператор
  */
-// const balance = 1000;
+
+const balance = 1000;
 // let message;
 
 // if (balance >= 0) {
@@ -53,16 +55,15 @@ const salary = 5000;
 // console.log(message);
 
 /*
- * Блокова область бачимості змінних
+ * Блокова область видимості змінних
  */
+
+// const b = 10;
 
 // if (true) {
 //   const a = 5;
-//   console.log(b);
+//     console.log(b);
+//     console.log(a);
 // }
 
-// if (true) {
-//   const b = 10;
-
-//   console.log(a);
-// }
+// console.log(a);

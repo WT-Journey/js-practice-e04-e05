@@ -6,8 +6,12 @@
  * 'Такої кількості зірок немає'
  */
 
-// const stars = 1;
-// let price;
+const stars = 1;
+let price;
+
+/* 
+*Рішення з використанням if 
+*/
 
 // if (stars === 1) {
 //   price = 20;
@@ -23,6 +27,11 @@
 //   console.log('Такої кількості зірок немає');
 // }
 
+// console.log(price);
+
+/* 
+*Рішення з використанням switch 
+*/
 // switch (stars) {
 //   case 1:
 //     price = 20;
@@ -58,6 +67,10 @@
 // const stars = 1;
 // let price;
 
+/* 
+*Рішення з використанням if 
+*/
+
 // if (stars === 1 || stars === 2) {
 //   price = 20;
 // } else if (stars === 3 || stars === 4) {
@@ -69,6 +82,10 @@
 // }
 
 // console.log(price);
+
+/* 
+*Рішення з використанням switch 
+*/
 
 // switch (stars) {
 //   case 1:
