@@ -15,3 +15,24 @@
  * «Оформлюємо замовлення на суму [сума] зі знижкою [знижка]%»
  */
 
+let totalSpent = 100;
+let payment = 500;
+let discount = 0;
+
+// if (totalSpent >= 100 && totalSpent < 1000) {
+//  console.log('Бронзовий партнер, знижка 2%');
+//  discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+//  console.log('Срібний партнер, знижка 5%');
+//  discount = 0.05;
+// } else if (totalSpent >= 5000) {
+//  console.log('Золотий партнер, знижка 10%');
+//  discount = 0.1;
+// } else {
+//  console.log('Не партнер, знижка 0%');
+// }
+
+
+// console.log(
+//  `Оформлюємо замовлення на суму ${payment} зі знижкою ${discount * 100}%`,
+// );
