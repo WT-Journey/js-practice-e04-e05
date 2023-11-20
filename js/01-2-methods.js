@@ -8,7 +8,7 @@
  */
 
 const playlist = {
-  name: 'Мій супер плейлист',
+  name: 'Мій супер плейліст',
   rating: 5,
   tracks: ['трек-1', 'трек-2', 'трек-3'],
   changeName(newName) {
@@ -29,12 +29,12 @@ const playlist = {
 
 console.log(playlist.getTrackCount());
 
-playlist.changeName('Нове имʼя');
+playlist.changeName('Нове імʼя');
 
-playlist.addTrack('новий трек 1');
+playlist.addTrack('Новий трек 1');
 console.log(playlist.getTrackCount());
 
-playlist.addTrack('новий трек 2');
+playlist.addTrack('Новий трек 2');
 console.log(playlist.getTrackCount());
 
 playlist.updateRating(4);
