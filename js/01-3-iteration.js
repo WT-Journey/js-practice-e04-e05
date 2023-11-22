@@ -1,6 +1,16 @@
 /*
- * Перебір через for...in и Object.keys|values|entries
+ * Перебір через for...in та Object.keys | values | entries
  */
+
+// const x ={
+//   a: 1,
+//   b:2,
+//   c:3,
+//   d:4,
+// }
+
+// console.log(Object.keys(x).length);
+
 
 const feedback = {
   good: 5,

@@ -5,29 +5,16 @@
  * - Як відрізнити об'єкт від області видимості
  */
 
-// const playlist = {
-//     name: 'Мій супер плейліст',
-//     rating: 5,
-//     tracks: ['трек-1', 'трек-2', 'трек-3'],
-//     trackCount: 3,
-// };
+const playlist = {
+    name: 'Мій супер плейліст',
+    rating: 5,
+    tracks: ['track-1', 'track-2', 'track-3'],
+    trackCount: 3,
+}
 
-// console.log(playlist);
+console.log(playlist);
+console.log(playlist.name);
 
-// const x = {};
-
-// const fn = function (myObject) {
-//   // myObject = { a: 1, b: 2 }
-//   console.log(myObject);
-// };
-
-// fn({ a: 1, b: 2 });
-
-// const rtfm = function () {
-//   return { a: 5 };
-// };
-
-// console.log(rtfm());
 
 /*
  * Доступ до властивості
@@ -37,43 +24,39 @@
  */
 
 // const playlist = {
-//   name: 'Мій супер плейліст',
-//   rating: 5,
-//   tracks: ['трек-1', 'трек-2', 'трек-3'],
-//   trackCount: 3,
-// };
+//     name: 'Мій супер плейліст',
+//     rating: 5,
+//     tracks: ['track-1', 'track-2', 'track-3'],
+//     trackCount: 3,
+// }
 
-// playlist.qwe = 5;
-
-// playlist.rating = 10;
-
-// console.log(playlist);
-
-// console.log(playlist);
 // console.log(playlist.tracks);
-// console.log(playlist.name);
-// console.log(playlist.trackCount);
+// console.log(playlist['tracks']);
 
-const propertyName = 'tracks';
-
-// console.log(playlist.rating);
-// console.log(playlist['rating']);
-
-// console.log(playlist.propertyName);
+// const propertyName = 'tracks';
 // console.log(playlist[propertyName]);
+
+// playlist.new = 5;
+
+// playlist.rating = 30;
 
 /*
  * Короткий запис властивостей
  */
-// const username = 'Fox';
-// const email = 'fox@mail.com';
+const username = 'Fox';
+const email = 'fox@mail.com';
 
 // const signupData = {
-//   username,
-//   email,
-// };
+//     username: username,
+//     email: email,
+// }
 
-// console.log(signupData);
+const signupData = {
+    username,
+    email,
+}
+
+console.log(signupData);
 
 /*
  * Властивості, що обчислюються
